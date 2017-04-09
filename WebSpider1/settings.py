@@ -67,6 +67,10 @@ ROBOTSTXT_OBEY = True
 #ITEM_PIPELINES = {
 #    'WebSpider1.pipelines.Webspider1Pipeline': 300,
 #}
+ITEM_PIPELINES = {
+    'WebSpider1.MyPipelines.MyPipelines': 1,
+}
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
